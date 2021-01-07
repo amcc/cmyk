@@ -70,5 +70,5 @@ function windowResized() {
 }
 
 function keyPressed() {
-  saveCanvas('p5-picture', 'png')
+  saveCanvas('CMYK', 'png')
 }
