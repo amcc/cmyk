@@ -73,5 +73,5 @@ function keyPressed() {
   saveCanvas('CMYK', 'png')
 }
 function mousePressed() {
-  saveCanvas('CMYK', 'png')
+  setupUp()
 }
