@@ -70,7 +70,7 @@ function windowResized() {
 }
 
 function keyPressed() {
-  saveCanvas('CMYK', 'png')
+  if (key == 's' || key == 'S') saveCanvas('CMYK', 'png')
 }
 function mousePressed() {
   setupUp()
